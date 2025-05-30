@@ -1,13 +1,13 @@
 {
     "name": "Lebiu-Launcher",
     "preductName": "Lebiu Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Launcher ofcial de Lebiu Studio",
     "main": "src/app.js",
     "author": {
         "name": "Darken."
     },
-    "url": "http://141.11.34.146:1200/main",
+    "url": "http://141.11.34.146:1201/main",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
