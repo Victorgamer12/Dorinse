@@ -10,10 +10,8 @@ class Login {
         this.config = config;
         this.db = new database();
 
-        // Mostrar pantalla de selección de login
         document.querySelector('.login-select').style.display = 'block';
 
-        // Botones de selección
         document.querySelector('.select-microsoft').addEventListener('click', () => {
             this.showMicrosoftLogin();
         });
